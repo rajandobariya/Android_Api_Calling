@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="6dp">
+
+            <TextView
+                android:id="@+id/json_array_request"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="6dp"
+                android:textSize="16dp"
+                android:background="@drawable/bg_button"
+                android:gravity="center"
+                android:text="Json Array Request"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/gson_array_request"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="6dp"
+                android:textSize="16dp"
+                android:background="@drawable/bg_button"
+                android:gravity="center"
+                android:text="Gson Array Request"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/gson_object_request"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="6dp"
+                android:textSize="16dp"
+                android:background="@drawable/bg_button"
+                android:gravity="center"
+                android:text="Gson Object Request"
+                android:textColor="@color/white" />
+
+
+            <TextView
+                android:id="@+id/retrofit_request"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="6dp"
+                android:textSize="16dp"
+                android:background="@drawable/bg_button"
+                android:gravity="center"
+                android:text="Retrofit Request"
+                android:textColor="@color/white" />
+
+
+            <TextView
+                android:id="@+id/https_request"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="6dp"
+                android:textSize="16dp"
+                android:background="@drawable/bg_button"
+                android:gravity="center"
+                android:text="Https Request"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/retrofit_post_request"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="6dp"
+                android:textSize="16dp"
+                android:background="@drawable/bg_button"
+                android:gravity="center"
+                android:text="Retrofit Post Request"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>
